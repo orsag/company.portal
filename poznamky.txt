@@ -1,0 +1,3 @@
+spustenie BE
+
+npm run server
