@@ -1,4 +1,4 @@
-.sideabar__root {
+.root {
   background: #39c7ff;
   height: 100%;
   width: 300px;
@@ -8,11 +8,12 @@
   transition: 300ms ease all;
 }
 
-.sideabar__root.active {
+.rootActive {
+  composes: root;
   left: 0px;
 }
 
-.sidebar__logo {
+.logo {
   display: flex;
   padding: 10px;
   justify-content: flex-end;
@@ -23,39 +24,41 @@
   cursor: pointer;
 }
 
-.sidebar__logo:hover {
+.logo:hover {
   background: #99e2ff;
 }
 
-.sidebar__row {
+.row {
   height: 1px;
   width: 100%;
   border-bottom: 1px solid #fff;
   opacity: 0.3;
 }
 
-.sidebar__navLinks ul {
+.navLinks ul {
   margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: 0;
 }
 
-.sidebar__navLinks li {
+.navLinks li {
   list-style-type: none;
-  padding: 20px 20px;
-
   width: 100%;
   padding-left: 0;
   padding-right: 0;
   border-bottom: 1px solid #99e2ff;
 }
 
-.sidebar__navLinks i {
+.navLinks i {
   margin-right: 3px;
   font-size: 26px;
 }
 
-.sidebar__navLinks a {
+.navLinks .icon {
+  font-size: 26px;
+}
+
+.navLinks a {
   color: white;
   font-size: 18px;
   text-decoration: none;
@@ -64,12 +67,10 @@
 
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 20px;
-  margin-right: 16px;
+  padding: 20px 16px 20px 20px;
 }
 
-.sidebar__navLinks li:hover {
-  /* background: pink; */
+.navLinks li:hover {
   background: rgba(57, 199, 255, 0.7);
   background: #99e2ff;
 }

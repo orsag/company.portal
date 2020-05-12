@@ -1,5 +1,5 @@
 import React, { createContext, useReducer } from 'react';
-import AppReducer from './AppReducer';
+import ExpanseTrackerReducer from './reducer';
 import axios from 'axios'
 
 // Initial state
@@ -7,24 +7,16 @@ const initialState = {
   transactions: [],
   error: null,
   loading: true,
-  sidebarOpen: false,
 }
 
 // Create context
-export const GlobalContext = createContext(initialState);
+export const ExpanseTrackerContext = createContext(initialState);
 
 // Provider component
-export const GlobalProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(AppReducer, initialState);
+export const ExpanseTrackerProvider = ({ children }) => {
+  const [state, dispatch] = useReducer(ExpanseTrackerReducer, initialState);
 
   // Actions
-  function toggleSidebar(value) {
-    dispatch({
-      type: 'TOGGLE_SIDEBAR',
-      payload: value || !state.sidebarOpen,
-    })
-  }
-
   async function getTransactions() {
     try {
       const res = await axios.get('/api/v1/transactions');
@@ -44,7 +36,7 @@ export const GlobalProvider = ({ children }) => {
   async function deleteTransaction(id) {
     try {
       await axios.delete(`/api/v1/transactions/${id}`)
-      
+
       dispatch({
         type: 'DELETE_TRANSACTION',
         payload: id,
@@ -79,16 +71,14 @@ export const GlobalProvider = ({ children }) => {
     }
   }
 
-  return (<GlobalContext.Provider value={{
+  return (<ExpanseTrackerContext.Provider value={{
     transactions: state.transactions,
     deleteTransaction,
     addTransaction,
     getTransactions,
     error: state.error,
     loading: state.loading,
-    sidebarOpen: state.sidebarOpen,
-    toggleSidebar,
   }}>
     {children}
-  </GlobalContext.Provider>);
+  </ExpanseTrackerContext.Provider>);
 }

@@ -1,58 +1,44 @@
 import React from 'react';
-import { Sidebar } from './components/common/Sidebar'
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
-import { Dashboard } from './components/Dashboard'
-import PageRenderer from './page-renderer'
-import { GlobalProvider } from './context/GlobalState';
-import './App.css';
+import { Sidebar } from './components/Sidebar'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import ExpanseTracker from './modules/expanse-tracker/components/expanse-tracker'
+import Dashboard from './modules/dashboard/components/dashboard'
+import AddressBook from './modules/address-book/components/address-book'
+import CashRegisterList from './modules/cash-register/components/cash-register-list'
+import Documents from './modules/document/components/documents'
+import Features from './modules/features/components/features'
+import Settings from './modules/settings/components/settings'
+import { GlobalProvider } from './context/AppState'
+import mainLayout from './components/layouts/MainLayout'
+import { navigationLinks } from './navigation-links'
+import './App.css'
 
 function App() {  
-  const navLinks = [
-    {
-      text: 'Dashboard',
-      path: '/',
-      icon: 'ion-ios-home'
-    },
-    {
-      text: 'Documents',
-      path: '/documents',
-      icon: 'ion-ios-analytics'
-    },
-    {
-      text: 'Address Book',
-      path: '/adressbook',
-    },
-    {
-      text: 'Cash Registers',
-      path: '/cashregisters',
-    },
-    {
-      text: 'Features',
-      path: '/features',
-    },
-    {
-      text: 'Settings',
-      path: '/settings',
-    },
-  ]
+  const ExpanseTrackerComponent = mainLayout()(ExpanseTracker)
+  const DashboardComponent = mainLayout()(Dashboard)
+  const AddressBookComponent = mainLayout()(AddressBook)
+  const CashRegisterListComponent = mainLayout()(CashRegisterList)
+  const DocumentsComponent = mainLayout()(Documents)
+  const FeaturesComponent = mainLayout()(Features)
+  const SettingsComponent = mainLayout()(Settings)
 
   return (
     <Router>
       <GlobalProvider>
-        <Sidebar navLinks={ navLinks } />
+        <Sidebar navLinks={navigationLinks} />
         <Switch>
-            <Route path="/:page" component={PageRenderer} />
-            <Route exact path="/" component={Dashboard} />
-            {/* <Route path="/dashboard" render={() => <Redirect to="/" />} /> */}
-            <Route component={() => 404} />
-
-            {/* <Route exact path="/" component={Dashboard} /> */}
-            {/* <Route path="/dashboard" render={() => <Redirect to="/" />} /> */}
-            {/* <Route path="/documents" component={Dashboard} /> */}
+          <Route exact path="/" component={DashboardComponent} />
+          <Route exact path="/tracker" component={ExpanseTrackerComponent} />
+          <Route exact path="/documents" component={DocumentsComponent} />
+          <Route exact path="/cashregisters" component={CashRegisterListComponent} />
+          <Route exact path="/adressbook" component={AddressBookComponent} />
+          <Route exact path="/features" component={FeaturesComponent} />
+          <Route exact path="/settings" component={SettingsComponent} />
+          <Route component={() => 404} />
         </Switch>
       </GlobalProvider>
     </Router>
   );
 }
 
-export default App;
+export default App

@@ -1,11 +1,11 @@
 import React, {useContext} from 'react';
-import { GlobalContext } from '../context/GlobalState';
-import { numberWithCommas } from '../utils/format'
+import { ExpanseTrackerContext } from '../context/state'
+import { numberWithCommas } from '../../../utils/format'
 
 export const Transaction = ({ transaction }) => {
-  const { deleteTransaction } = useContext(GlobalContext);
+  const { deleteTransaction } = useContext(ExpanseTrackerContext)
 
-  const sign = transaction.amount < 0 ? '-' : '+';
+  const sign = transaction.amount < 0 ? '-' : '+'
 
   const amount = numberWithCommas(Math.abs(transaction.amount))
 

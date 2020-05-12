@@ -1,3 +1,6 @@
 spustenie BE
 
 npm run server
+
+rsc
+rscp
