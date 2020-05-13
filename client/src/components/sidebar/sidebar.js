@@ -1,17 +1,7 @@
 import React, { useState, useContext } from 'react'
 import logo from '../../logo.svg'
 import { Link } from 'react-router-dom'
-import {
-	IoIosHome,
-	IoIosGlobe,
-	IoIosDocument,
-	IoIosBookmarks,
-	IoLogoUsd,
-	IoMdWarning,
-	IoIosSettings,
-	IoIosCube,
-} from 'react-icons/io'
-import { IconContext } from 'react-icons'
+import Icon from '../icon'
 import styles from './sidebar.module.css'
 import { GlobalContext } from '../../context/AppState'
 
@@ -22,27 +12,6 @@ const Sidebar = ({ navLinks }) => {
 	const _toggleSidebar = () => {
 		toggleSidebar()
 		setNavOpen(!navOpen)
-	}
-
-	const getIcon = (icon) => {
-		switch (icon) {
-			case 'IoIosHome':
-				return <IoIosHome />
-			case 'IoIosGlobe':
-				return <IoIosGlobe />
-			case 'IoIosDocument':
-				return <IoIosDocument />
-			case 'IoIosBookmarks':
-				return <IoIosBookmarks />
-			case 'IoLogoUsd':
-				return <IoLogoUsd />
-			case 'IoMdWarning':
-				return <IoMdWarning />
-			case 'IoIosSettings':
-				return <IoIosSettings />
-			default:
-				return <IoIosCube />
-		}
 	}
 
 	return (
@@ -57,7 +26,7 @@ const Sidebar = ({ navLinks }) => {
 						<li key={index}>
 							<Link to={link.path}>
 								{link.text}
-								<IconContext.Provider value={{ className: styles.icon }}>{getIcon(link.icon)}</IconContext.Provider>
+								<Icon name={link.icon} className={styles.icon} />
 							</Link>
 						</li>
 					))}

@@ -3,50 +3,54 @@
   <component name="AnalysisUIOptions">
     <option name="SCOPE_TYPE" value="3" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:client" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="77446bb0-0ec7-44f0-a486-9ef3d5778902" name="Default Changelist" comment="Git fix">
-      <change afterPath="$PROJECT_DIR$/client/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/config-overrides.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="77446bb0-0ec7-44f0-a486-9ef3d5778902" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/components/avatar/avatar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/avatar/avatar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/avatar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/icon/icon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/icon/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/layouts/MainLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layouts/MainLayout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notification-center/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/notification-center/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notification-center/notification-center.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/notification-center/notification-center.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/sidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/sidebar/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/sidebar/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/sidebar/sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/context/AppReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/AppReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/context/AppState.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/AppState.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/modules/address-book/components/address-book.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/address-book/components/address-book.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register-edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register-edit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register-settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register-settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/modules/dashboard/components/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/dashboard/components/dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/modules/document/components/documents.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/document/components/documents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/AddTransaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/AddTransaction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/Balance.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/Balance.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/IncomeExpenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/IncomeExpenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/Transaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/Transaction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/TransactionList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/TransactionList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/expanse-tracker.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/expanse-tracker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/modules/expanse-tracker/context/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/expanse-tracker/context/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/modules/expanse-tracker/context/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/expanse-tracker/context/state.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/modules/features/components/features.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/features/components/features.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/modules/settings/components/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/settings/components/settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/navigation-links.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/navigation-links.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/blog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/contact-us.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/utils/format.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/format.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +142,7 @@
       <workItem from="1589376092388" duration="53000" />
       <workItem from="1589376160529" duration="2221000" />
       <workItem from="1589378410203" duration="2370000" />
-      <workItem from="1589380950976" duration="509000" />
+      <workItem from="1589380950976" duration="8405000" />
     </task>
     <task id="LOCAL-00001" summary="Layout, routing, css-modules, sidebar moving content.">
       <created>1589299256131</created>
@@ -154,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589366155005</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Eslint and prettier applied">
+      <created>1589381564266</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589381564266</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +202,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Layout, routing, css-modules, sidebar moving content." />
     <MESSAGE value="PropTypes removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="PropTypes removed" />
+    <MESSAGE value="Eslint and prettier applied" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eslint and prettier applied" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="256" key="#ESLint" timestamp="1589376686368">
@@ -202,6 +214,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1920.-313.1920.1040@0.0.1366.728" timestamp="1589379861375" />
+    <state x="54" y="0" width="1226" height="728" key="CommitChangelistDialog2" timestamp="1589381563233">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="54" y="0" width="1226" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589381563233" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1589376541649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
