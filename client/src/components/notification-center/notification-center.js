@@ -1,11 +1,7 @@
 import React from 'react'
 
 const NotificationCenter = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+	return <div />
 }
 
 export default NotificationCenter

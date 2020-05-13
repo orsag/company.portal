@@ -8,20 +8,19 @@ import { ExpanseTrackerProvider } from '../context/state'
 import './expanse-tracker.css'
 
 const ExpanseTracker = () => {
-  return (
-    <ExpanseTrackerProvider>
-      <div className="counter_root">
-        <Header />
-        <div className="container">
-          <Balance />
-          <IncomeExpenses />
-          <TransactionList />
-          <AddTransaction />
-        </div>
-      </div>
-    </ExpanseTrackerProvider>
-  )
+	return (
+		<ExpanseTrackerProvider>
+			<div className="counter_root">
+				<Header />
+				<div className="container">
+					<Balance />
+					<IncomeExpenses />
+					<TransactionList />
+					<AddTransaction />
+				</div>
+			</div>
+		</ExpanseTrackerProvider>
+	)
 }
-
 
 export default ExpanseTracker

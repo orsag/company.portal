@@ -1,7 +1,7 @@
 {
-  "name": "react-expense-tracker-mern",
+  "name": "company-portal",
   "version": "1.0.0",
-  "description": "Backend for expense tracker",
+  "description": "Backend for company portal",
   "main": "index.js",
   "scripts": {
     "start": "node server",
@@ -9,16 +9,8 @@
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bradtraversy/expense-tracker-react.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bradtraversy/expense-tracker-react/issues"
-  },
-  "homepage": "https://github.com/bradtraversy/expense-tracker-react#readme",
   "dependencies": {
     "colors": "^1.4.0",
     "dotenv": "^8.2.0",

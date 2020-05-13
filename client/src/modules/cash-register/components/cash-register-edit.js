@@ -1,16 +1,9 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
-const CashRegisterEdit = props => {
-  return (
-    <div>
-
-    </div>
-  )
+const CashRegisterEdit = (props) => {
+	return <div />
 }
 
-CashRegisterEdit.propTypes = {
-
-}
+CashRegisterEdit.propTypes = {}
 
 export default CashRegisterEdit

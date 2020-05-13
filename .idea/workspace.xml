@@ -1,104 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="77446bb0-0ec7-44f0-a486-9ef3d5778902" name="Default Changelist" comment="Git fix">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/config-overrides.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layouts/MainLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layouts/MainLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/notification-center/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/notification-center/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/notification-center/notification-center.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/notification-center/notification-center.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/sidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/sidebar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/sidebar/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/sidebar/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/context/AppReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/AppReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/context/AppState.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/AppState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/address-book/components/address-book.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/address-book/components/address-book.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register-edit.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register-edit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register-settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register-settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/dashboard/components/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/dashboard/components/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/document/components/documents.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/document/components/documents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/AddTransaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/AddTransaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/Balance.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/Balance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/IncomeExpenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/IncomeExpenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/Transaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/Transaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/TransactionList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/TransactionList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/expanse-tracker.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/expanse-tracker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/expanse-tracker/context/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/expanse-tracker/context/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/expanse-tracker/context/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/expanse-tracker/context/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/features/components/features.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/features/components/features.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/settings/components/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/settings/components/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/navigation-links.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/navigation-links.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/contact-us.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/format.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/format.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/layouts/MainLayout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/sidebar/sidebar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/sidebar/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/components/notification-center/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -108,63 +61,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>useContext</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/client/src/components/Transaction.js" />
-        <option value="$PROJECT_DIR$/client/src/components/TransactionList.js" />
-        <option value="$PROJECT_DIR$/client/src/modules/expanse-tracker/expanse-tracker.js" />
-        <option value="$PROJECT_DIR$/client/src/components/common/MainLayout.css" />
-        <option value="$PROJECT_DIR$/poznamky.txt" />
-        <option value="$PROJECT_DIR$/client/public/index.html" />
-        <option value="$PROJECT_DIR$/client/src/components/common/Sidebar.css" />
-        <option value="$PROJECT_DIR$/client/src/App.css" />
-        <option value="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/expanse-tracker.css" />
-        <option value="$PROJECT_DIR$/client/src/modules/expanse-tracker/context/state.js" />
-        <option value="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/expanse-tracker.js" />
-        <option value="$PROJECT_DIR$/client/src/context/GlobalState.js" />
-        <option value="$PROJECT_DIR$/client/src/modules/expanse-tracker/context/reducer.js" />
-        <option value="$PROJECT_DIR$/client/src/context/AppReducer.js" />
-        <option value="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/AddTransaction.js" />
-        <option value="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/Balance.js" />
-        <option value="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/TransactionList.js" />
-        <option value="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/IncomeExpenses.js" />
-        <option value="$PROJECT_DIR$/client/src/modules/expanse-tracker/components/Transaction.js" />
-        <option value="$PROJECT_DIR$/client/src/components/common/Sidebar.js" />
-        <option value="$PROJECT_DIR$/client/src/components/common/Sidebar.module.css" />
-        <option value="$PROJECT_DIR$/client/src/components/common/MainLayout.js" />
-        <option value="$PROJECT_DIR$/client/src/components/common/MainLayout.module.css" />
-        <option value="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register-edit.js" />
-        <option value="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register-settings.js" />
-        <option value="$PROJECT_DIR$/client/src/navigation-links.js" />
-        <option value="$PROJECT_DIR$/client/src/components/Sidebar.js" />
-        <option value="$PROJECT_DIR$/client/src/modules/dashboard/components/dashboard.js" />
-        <option value="$PROJECT_DIR$/client/src/modules/settings/components/settings.js" />
-        <option value="$PROJECT_DIR$/client/src/modules/features/components/features.js" />
-        <option value="$PROJECT_DIR$/client/src/modules/document/components/documents.js" />
-        <option value="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register.js" />
-        <option value="$PROJECT_DIR$/client/src/modules/address-book/components/address-book.js" />
-        <option value="$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register-list.js" />
-        <option value="$PROJECT_DIR$/client/src/components/notification-center.module.css" />
-        <option value="$PROJECT_DIR$/client/src/components/notification-center/notification-center.js" />
-        <option value="$PROJECT_DIR$/client/src/components/sidebar/sidebar.js" />
-        <option value="$PROJECT_DIR$/client/src/App.js" />
-        <option value="$PROJECT_DIR$/client/src/context/AppState.js" />
-        <option value="$PROJECT_DIR$/client/src/components/layouts/MainLayout.js" />
-        <option value="$PROJECT_DIR$/client/src/components/sidebar/index.js" />
-        <option value="$PROJECT_DIR$/client/src/components/notification-center/index.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/client/.gitignore" />
-      </list>
-    </option>
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -173,48 +71,34 @@
     <auto-save>true</auto-save>
   </component>
   <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/client/package.json" />
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
-  </component>
+  <component name="ProjectId" id="1br1cGzStiwDH6Roc9iZYpWiczg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="company.portal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="company.portal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="company.portal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="company.portal" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Trivi.Portal/Trivi.Portal/src/Trivi.Portal.Client" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -225,18 +109,6 @@
       <recent name="C:\development\company.portal\client\src\modules\expanse-tracker\components" />
       <recent name="C:\development\company.portal\client\src" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -258,6 +130,15 @@
       <workItem from="1589271993493" duration="160000" />
       <workItem from="1589272183922" duration="16553000" />
       <workItem from="1589341293058" duration="9393000" />
+      <workItem from="1589368485089" duration="2338000" />
+      <workItem from="1589370965162" duration="3264000" />
+      <workItem from="1589374315668" duration="973000" />
+      <workItem from="1589375485913" duration="153000" />
+      <workItem from="1589375972103" duration="73000" />
+      <workItem from="1589376092388" duration="53000" />
+      <workItem from="1589376160529" duration="2221000" />
+      <workItem from="1589378410203" duration="2370000" />
+      <workItem from="1589380950976" duration="509000" />
     </task>
     <task id="LOCAL-00001" summary="Layout, routing, css-modules, sidebar moving content.">
       <created>1589299256131</created>
@@ -276,78 +157,15 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34009000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23809524" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286385" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.25821596" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5054773" />
-      <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19866072" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -366,6 +184,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -374,327 +193,22 @@
     <MESSAGE value="PropTypes removed" />
     <option name="LAST_COMMIT_MESSAGE" value="PropTypes removed" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/webstorm64.exe.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Dashboard.js" />
-    <entry file="file://$PROJECT_DIR$/client/node_modules/ionicons/icons/index.js" />
-    <entry file="file://$PROJECT_DIR$/client/node_modules/ionicons/icons/index.d.ts" />
-    <entry file="file://$PROJECT_DIR$/client/node_modules/ionicons/dist/index.js" />
-    <entry file="file://$PROJECT_DIR$/client/node_modules/ionicons/dist/ionicons.js" />
-    <entry file="file://$PROJECT_DIR$/client/node_modules/ionicons/package.json" />
-    <entry file="file://$PROJECT_DIR$/client/node_modules/ionicons/readme.md" />
-    <entry file="file://$PROJECT_DIR$/client/node_modules/react-icons/src/iconContext.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/context/AppReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/expanse-tracker/components/expanse-tracker.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="108" column="16" lean-forward="true" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/expanse-tracker/context/reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/expanse-tracker/context/state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/expanse-tracker/components/AddTransaction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/expanse-tracker/components/Balance.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/expanse-tracker/components/TransactionList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="56" lean-forward="true" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/expanse-tracker/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/expanse-tracker/components/IncomeExpenses.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/expanse-tracker/components/Transaction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.env">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/sidebar/sidebar.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/poznamky.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/layouts/MainLayout.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register-edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register-settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/navigation-links.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/settings/components/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/expanse-tracker/components/expanse-tracker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/features/components/features.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/document/components/documents.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/dashboard/components/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/address-book/components/address-book.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/modules/cash-register/components/cash-register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/notification-center/notification-center.module.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/notification-center/notification-center.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/context/AppState.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/layouts/MainLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/sidebar/sidebar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/notification-center/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/sidebar/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="551" y="256" key="#ESLint" timestamp="1589376686368">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="551" y="256" key="#ESLint/0.0.1366.728/-1920.-313.1920.1040@0.0.1366.728" timestamp="1589376686368" />
+    <state x="430" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589379861375">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="430" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1920.-313.1920.1040@0.0.1366.728" timestamp="1589379861375" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1589376541649">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728/-1920.-313.1920.1040@0.0.1366.728" timestamp="1589376541649" />
+    <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1589378385083">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728/-1920.-313.1920.1040@0.0.1366.728" timestamp="1589378385083" />
   </component>
 </project>
