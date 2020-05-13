@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 const Settings = props => {
   return (
@@ -7,10 +6,6 @@ const Settings = props => {
       <h1>Settings</h1>
     </div>
   )
-}
-
-Settings.propTypes = {
-
 }
 
 export default Settings

@@ -1,5 +1,5 @@
 import React, {useState,useContext} from 'react'
-import logo from '../logo.svg'
+import logo from '../../logo.svg'
 import { Link } from 'react-router-dom'
 import {
   IoIosHome,
@@ -11,11 +11,11 @@ import {
   IoIosSettings,
   IoIosCube
 } from 'react-icons/io'
-import { IconContext } from 'react-icons'
-import styles from './Sidebar.module.css'
-import { GlobalContext } from '../context/AppState'
+import { IconContext } from 'react-icons/lib/esm/index'
+import styles from './sidebar.module.css'
+import { GlobalContext } from '../../context/AppState'
 
-export const Sidebar = ({ navLinks }) => {
+const Sidebar = ({ navLinks }) => {
   const [ navOpen, setNavOpen ] = useState(0)
   const { toggleSidebar } = useContext(GlobalContext)
 
@@ -60,3 +60,5 @@ export const Sidebar = ({ navLinks }) => {
     </div>
   )
 }
+
+export default Sidebar

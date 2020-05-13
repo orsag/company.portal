@@ -1,6 +1,6 @@
 import React, { Component, useContext } from 'react'
 import { GlobalContext } from '../../context/AppState'
-import { NotificationCenter } from '../NotificationCenter'
+import NotificationCenter from '../notification-center'
 import styles from './MainLayout.module.css'
 
 const Wrapper = (props) => {

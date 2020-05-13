@@ -1,6 +1,6 @@
-import React from 'react';
-import { Sidebar } from './components/Sidebar'
+import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { Sidebar } from './components/sidebar'
 import ExpanseTracker from './modules/expanse-tracker/components/expanse-tracker'
 import Dashboard from './modules/dashboard/components/dashboard'
 import AddressBook from './modules/address-book/components/address-book'
@@ -8,12 +8,12 @@ import CashRegisterList from './modules/cash-register/components/cash-register-l
 import Documents from './modules/document/components/documents'
 import Features from './modules/features/components/features'
 import Settings from './modules/settings/components/settings'
-import { GlobalProvider } from './context/AppState'
 import mainLayout from './components/layouts/MainLayout'
+import { GlobalProvider } from './context/AppState'
 import { navigationLinks } from './navigation-links'
 import './App.css'
 
-function App() {  
+function App() {
   const ExpanseTrackerComponent = mainLayout()(ExpanseTracker)
   const DashboardComponent = mainLayout()(Dashboard)
   const AddressBookComponent = mainLayout()(AddressBook)

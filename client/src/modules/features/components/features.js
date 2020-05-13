@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 const Features = props => {
   return (
@@ -7,10 +6,6 @@ const Features = props => {
       <h1>Features</h1>
     </div>
   )
-}
-
-Features.propTypes = {
-
 }
 
 export default Features
