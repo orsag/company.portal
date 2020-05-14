@@ -1,15 +1,17 @@
+/** @jsx jsx */
+import { jsx } from '@emotion/core'
 import React from 'react'
 import PropTypes from 'prop-types'
 
 const Avatar = (props) => {
-	const styles = getStyles(this.props)
+	const styles = getStyles(props)
 
 	if (props.src) {
-		return <img style={Object.assign(styles.root, props.style)} src={props.src} className={props.className} />
+		return <img css={styles.root} src={props.src} className={props.className} />
 	} else {
 		return (
-			<div style={Object.assign(styles.root, this.props.style)} className={props.className}>
-				{this.props.icon &&
+			<div css={styles.root} className={props.className}>
+				{props.icon &&
 					React.cloneElement(props.icon, {
 						color: styles.icon.color,
 						hoverColor: props.hoverColor,
@@ -28,7 +30,7 @@ function getStyles(props) {
 	const styles = {
 		root: {
 			color: color || '#fff',
-			backgroundColor: backgroundColor || '#d3d3d3',
+			background: backgroundColor || '#d3d3d3',
 			border: borderColor ? `${borderWidth}px solid ${borderColor}` : 'none',
 			userSelect: 'none',
 			display: 'inline-flex',
@@ -38,6 +40,9 @@ function getStyles(props) {
 			borderRadius: '50%',
 			height: size,
 			width: size,
+			'&:hover': {
+				background: props.hoverColor,
+			},
 		},
 		icon: {
 			color: color || '#fff',
@@ -52,6 +57,7 @@ function getStyles(props) {
 }
 
 Avatar.propTypes = {
+	className: PropTypes.string,
 	backgroundColor: PropTypes.string,
 	borderColor: PropTypes.string,
 	borderWidth: PropTypes.number,

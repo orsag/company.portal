@@ -10,6 +10,7 @@ import {
 	IoMdWarning,
 	IoIosSettings,
 	IoIosCube,
+	IoIosArrowForward,
 } from 'react-icons/io'
 
 const Icon = (props) => {
@@ -30,6 +31,8 @@ const Icon = (props) => {
 				return <IoMdWarning />
 			case 'IoIosSettings':
 				return <IoIosSettings />
+			case 'IoIosArrowForward':
+				return <IoIosArrowForward />
 			default:
 				return <IoIosCube />
 		}
@@ -51,8 +54,9 @@ Icon.propTypes = {
 	color: PropTypes.string,
 	className: PropTypes.string,
 	style: PropTypes.object,
-	size: PropTypes.string,
+	size: PropTypes.number,
 	title: PropTypes.string,
+	hoverColor: PropTypes.string,
 }
 
 export default Icon

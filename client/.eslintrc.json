@@ -1,27 +1,39 @@
 {
-    "env": {
-        "browser": true,
-        "es6": true
-    },
+    "parser": "babel-eslint",
     "extends": [
-        "prettier",
         "eslint:recommended",
-        "plugin:react/recommended"
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "plugin:json/recommended"
     ],
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true,
-            "experimentalObjectRestSpread": true
-        },
-        "ecmaVersion": 6,
-        "sourceType": "module"
+    "globals": {
+        "API_HOST": true,
+        "Raven": true
     },
     "plugins": [
         "react",
-        "prettier"
+        "prettier",
+        "emotion",
+        "json"
     ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true,
+        "jquery": true,
+        "mocha": true,
+        "jest": true,
+        "jasmine": true
+    },
     "rules": {
-        "linebreak-style": ["warn", "unix"],
         "comma-dangle": ["error", "always-multiline"],
         "quotes": [1, "single"],
         "no-console": 1,
@@ -92,6 +104,23 @@
                 "semi": false,
                 "bracketSpacing": true,
                 "printWidth": 120
-            }]
+            }],
+        "emotion/jsx-import": "error",
+        "emotion/no-vanilla": "error",
+        "emotion/import-from-emotion": "error",
+        "emotion/styled-import": "error"
+    },
+    "settings": {
+        "flowtype": {
+            "onlyFilesWithFlowAnnotation": true
+        },
+        "react": {
+            "version": "detect"
+        },
+        "import/resolver": {
+            "node": {
+                "paths": ["./src"]
+            }
+        }
     }
 }

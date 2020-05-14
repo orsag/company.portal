@@ -43,14 +43,40 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77446bb0-0ec7-44f0-a486-9ef3d5778902" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/avatar/avatar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/avatar/avatar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/avatar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/icon/icon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/icon/index.js" afterDir="false" />
+    <list default="true" id="77446bb0-0ec7-44f0-a486-9ef3d5778902" name="Default Changelist" comment="Icon component">
+      <change afterPath="$PROJECT_DIR$/client/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/foto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Paper/Paper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Paper/Paper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Paper/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/breadcrumbs/breadcrumb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/breadcrumbs/breadcrumbs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/breadcrumbs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/button/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/button/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/checkbox/checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/checkbox/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/chip/chip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/chip/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/internal/EnhancedButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/internal/EnhancedSwitch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/modules/dashboard/components/dashboard.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/utils/colorManipulator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/utils/tests/autotest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/variables/colors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/variables/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/sidebar/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/sidebar/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/avatar/avatar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/avatar/avatar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/icon/icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/icon/icon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layouts/MainLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layouts/MainLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/sidebar/sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/sidebar/sidebar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/modules/dashboard/components/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/modules/dashboard/components/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,13 +118,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Trivi.Portal/Trivi.Portal/src/Trivi.Portal.Client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.eslint" value="C:\development\company.portal\client\node_modules\eslint" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -106,6 +132,9 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\development\company.portal\client\src\assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\development\company.portal\client\src\components\sidebar" />
       <recent name="C:\development\company.portal\client\src\components\notification-center" />
@@ -142,7 +171,9 @@
       <workItem from="1589376092388" duration="53000" />
       <workItem from="1589376160529" duration="2221000" />
       <workItem from="1589378410203" duration="2370000" />
-      <workItem from="1589380950976" duration="8405000" />
+      <workItem from="1589380950976" duration="8567000" />
+      <workItem from="1589430121265" duration="12479000" />
+      <workItem from="1589454146927" duration="13627000" />
     </task>
     <task id="LOCAL-00001" summary="Layout, routing, css-modules, sidebar moving content.">
       <created>1589299256131</created>
@@ -165,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589381564266</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Icon component">
+      <created>1589396076202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589396076202</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +214,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -203,28 +247,39 @@
     <MESSAGE value="Layout, routing, css-modules, sidebar moving content." />
     <MESSAGE value="PropTypes removed" />
     <MESSAGE value="Eslint and prettier applied" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eslint and prettier applied" />
+    <MESSAGE value="Icon component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Icon component" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="551" y="256" key="#ESLint" timestamp="1589376686368">
+    <state x="551" y="203" key="#ESLint" timestamp="1589454758468">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="551" y="256" key="#ESLint/0.0.1366.728/-1920.-313.1920.1040@0.0.1366.728" timestamp="1589376686368" />
-    <state x="430" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589379861375">
+    <state x="551" y="203" key="#ESLint/0.0.1366.728/-1920.-313.1920.1040@0.0.1366.728" timestamp="1589454758468" />
+    <state x="430" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589467729678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1920.-313.1920.1040@0.0.1366.728" timestamp="1589379861375" />
-    <state x="54" y="0" width="1226" height="728" key="CommitChangelistDialog2" timestamp="1589381563233">
+    <state x="430" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1589467729678" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589458859360">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="54" y="0" width="1226" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589381563233" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589458859360" />
+    <state x="54" y="0" width="1226" height="728" key="CommitChangelistDialog2" timestamp="1589476003400">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="54" y="0" width="1226" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589476003400" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1589376541649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728/-1920.-313.1920.1040@0.0.1366.728" timestamp="1589376541649" />
-    <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1589378385083">
+    <state x="327" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589466813672">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="327" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1589466813672" />
+    <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1589477586786">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728/-1920.-313.1920.1040@0.0.1366.728" timestamp="1589378385083" />
+    <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1589477586786" />
   </component>
 </project>

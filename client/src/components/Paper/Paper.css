@@ -1,0 +1,126 @@
+/*@value white, gray400 from "variables/colors.css";*/
+
+.root {
+	background-color: white;
+	border-style: solid;
+	border-color: var(--gray400);
+	position: relative;
+}
+
+.top, .topLeft, .topRight {
+	position: relative;
+}
+
+.left, .leftTop, .leftBottom {
+	position: relative;
+}
+
+.bottom, .bottomLeft, .bottomRight {
+	position: relative;
+}
+
+.right, .rightTop, .rightBottom {
+	position: relative;
+}
+
+.top:after, .topLeft:after, .topRight:after  {
+	border: solid transparent;
+	content: ' ';
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-width: 6px;
+	bottom: 100%;
+	margin-left: -6px;
+	border-bottom-color: var(--gray400);
+}
+
+.top:after {
+	left: 50%;
+}
+
+.topLeft:after {
+	left: 12px;
+}
+
+.topRight:after {
+	right: 12px;
+}
+
+.bottom:after, .bottomLeft:after, .bottomRight:after  {
+	border: solid transparent;
+	content: ' ';
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-width: 6px;
+	top: 100%;
+	margin-left: -6px;
+	border-top-color: var(--gray400);
+}
+
+.bottom:after {
+	left: 50%;
+}
+
+.bottomLeft:after {
+	left: 12px;
+}
+
+.bottomRight:after {
+	right: 12px;
+}
+
+.left:after, .leftTop:after, .leftBottom:after  {
+	border: solid transparent;
+	content: ' ';
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-width: 6px;
+	right: 100%;
+	margin-top: -6px;
+	border-right-color: var(--gray400);
+}
+
+.left:after {
+	top: 50%;
+}
+
+.leftTop:after {
+	top: 12px;
+}
+
+.leftBottom:after {
+	bottom: 12px;
+}
+
+.right:after, .rightTop:after, .rightBottom:after  {
+	border: solid transparent;
+	content: ' ';
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-width: 6px;
+	left: 100%;
+	margin-top: -6px;
+	border-left-color: var(--gray400);
+}
+
+.right:after {
+	top: 50%;
+}
+
+.rightTop:after {
+	top: 12px;
+}
+
+.rightBottom:after {
+	bottom: 12px;
+}
+
+

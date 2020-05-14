@@ -70,6 +70,12 @@
   padding: 20px 16px 20px 20px;
 }
 
+.navLinks a:hover,
+.navLinks a:visited,
+.navLinks a:active {
+  color: white;
+}
+
 .navLinks li:hover {
   background: rgba(57, 199, 255, 0.7);
   background: #99e2ff;
