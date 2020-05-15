@@ -1,3 +1,5 @@
+/** @jsx jsx */
+import { jsx } from '@emotion/core'
 import React, { Component } from 'react'
 import { autoTestId } from 'utils/tests/autotest'
 import keycode from 'keycode'
@@ -275,7 +277,9 @@ class EnhancedSwitch extends Component {
 			wrapStyles.marginRight /= 2
 		}
 
-		const labelElement = label && <label style={Object.assign(styles.label, labelStyle)}>{label}</label>
+		const cssLabelStyle = Object.assign(styles.label, labelStyle)
+		const cssInputStyle = Object.assign(styles.input, inputStyle)
+		const labelElement = label && <label css={cssLabelStyle}>{label}</label>
 
 		const inputElement = (
 			<input
@@ -285,7 +289,7 @@ class EnhancedSwitch extends Component {
 				onClick={this.props.onClick}
 				ref="checkbox"
 				type={inputType}
-				style={Object.assign(styles.input, inputStyle)}
+				css={cssInputStyle}
 				name={name}
 				value={value || undefined}
 				disabled={disabled}
@@ -299,12 +303,12 @@ class EnhancedSwitch extends Component {
 		// If toggle component (indicated by whether the style includes thumb) manually lay out
 		// elements in order to nest ripple elements
 		const switchOrThumbElement = !thumbStyle ? (
-			<div style={wrapStyles}>{switchElement}</div>
+			<div css={wrapStyles}>{switchElement}</div>
 		) : (
-			<div style={wrapStyles}>
-				<div style={Object.assign({}, trackStyle)}>
+			<div css={wrapStyles}>
+				<div css={Object.assign({}, trackStyle)}>
 					{labelInside && (
-						<div style={styles.labelInside}>
+						<div css={styles.labelInside}>
 							{labelInsideChecked && this.props.switched ? labelInsideChecked : labelInside}
 						</div>
 					)}
@@ -317,12 +321,12 @@ class EnhancedSwitch extends Component {
 
 		const elementsInOrder =
 			labelPosition === 'right' ? (
-				<div style={styles.controls}>
+				<div css={styles.controls}>
 					{switchOrThumbElement}
 					{labelElement}
 				</div>
 			) : (
-				<div style={styles.controls}>
+				<div css={styles.controls}>
 					{labelElement}
 					{switchOrThumbElement}
 				</div>
@@ -332,7 +336,7 @@ class EnhancedSwitch extends Component {
 			<div
 				ref="root"
 				className={className}
-				style={Object.assign(styles.root, style)}
+				css={Object.assign(styles.root, style)}
 				onMouseEnter={this.handleMouseEnter}
 				onMouseLeave={this.handleMouseLeave}
 				onClick={this.handleClick}

@@ -5,12 +5,14 @@ import Button from 'components/button'
 import { Breadcrumbs, Breadcrumb } from 'components/breadcrumbs'
 import Checkbox from 'components/checkbox'
 import Chip from 'components/chip'
+import CircularProgress from 'components/circular-progress'
 import avatarImage from 'assets/foto.jpg'
 import { colors } from 'variables'
 import styles from './dashboard.module.css'
 
 const Dashboard = () => {
 	const [isChecked, setIsChecked] = useState(false)
+	const COLORS = [colors.blue, colors.orange, colors.red, colors.purple, colors.greenPrinting, colors.black]
 
 	const fakeOnClick = () => {
 		// do nothing
@@ -76,6 +78,23 @@ const Dashboard = () => {
 				<Chip labelStyle={styles.chipLabel} className={styles.chip} backgroundColor={colors.green}>
 					{1000}
 				</Chip>
+			</div>
+
+			<div className={styles.section}>
+				<div className={styles.loadingBar}>
+					<CircularProgress />
+				</div>
+			</div>
+
+			<div className={styles.section}>
+				<div className={styles.colors}>
+					{/*{COLORS.map((color) => this.renderColorSwitch(color))}*/}
+					{/*<ColorPicker*/}
+					{/*	color={this.getUserColor()}*/}
+					{/*	onColor={this.handleColorSwitch}*/}
+					{/*	switched={!this.isDefaultColor(this.state.color)}*/}
+					{/*/>*/}
+				</div>
 			</div>
 		</div>
 	)

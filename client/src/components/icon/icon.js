@@ -11,6 +11,8 @@ import {
 	IoIosSettings,
 	IoIosCube,
 	IoIosArrowForward,
+	IoIosCloseCircleOutline,
+	IoIosColorPalette,
 } from 'react-icons/io'
 
 const Icon = (props) => {
@@ -33,6 +35,10 @@ const Icon = (props) => {
 				return <IoIosSettings />
 			case 'IoIosArrowForward':
 				return <IoIosArrowForward />
+			case 'IoIosCloseCircleOutline':
+				return <IoIosCloseCircleOutline />
+			case 'IoIosColorPalette':
+				return <IoIosColorPalette />
 			default:
 				return <IoIosCube />
 		}

@@ -14,12 +14,12 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-:global(input[autocomplete=off]::-webkit-contacts-auto-fill-button),
-:global(input[autocomplete=off]::-webkit-credentials-auto-fill-button) {
-  visibility: hidden;
-  position: absolute;
-  right: 0;
-}
+/*:global(input[autocomplete=off]::-webkit-contacts-auto-fill-button),*/
+/*:global(input[autocomplete=off]::-webkit-credentials-auto-fill-button) {*/
+/*  visibility: hidden;*/
+/*  position: absolute;*/
+/*  right: 0;*/
+/*}*/
 
 
 /* Disable webkit autofill styles */
@@ -98,5 +98,5 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 :root {
-  --gray400: brown;
+  --gray400: #BFC9CB;
 }

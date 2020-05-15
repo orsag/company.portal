@@ -1,3 +1,5 @@
+/** @jsx jsx */
+import { jsx } from '@emotion/core'
 import React, { Component } from 'react'
 import Icon from 'components/icon'
 
@@ -33,7 +35,7 @@ class Breadcrumbs extends Component {
 			}
 		})
 
-		return <div style={styles.root}>{children}</div>
+		return <div css={styles.root}>{children}</div>
 	}
 }
 

@@ -21,3 +21,11 @@
 	font-size: 12px;
 	font-weight: normal;
 }
+
+.loadingBar {
+
+}
+
+.colors {
+	display: flex;
+}

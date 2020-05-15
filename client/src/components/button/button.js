@@ -1,3 +1,5 @@
+/** @jsx jsx */
+import { jsx } from '@emotion/core'
 import React, { Component } from 'react'
 import EnhancedButton from 'components/internal/EnhancedButton'
 import { colors } from 'variables'
@@ -85,7 +87,7 @@ class Button extends Component {
 				style={styles.root}
 				name={this.props.name}
 			>
-				<span style={styles.label}>{this.props.labelText}</span>
+				<span css={styles.label}>{this.props.labelText}</span>
 			</EnhancedButton>
 		)
 	}
